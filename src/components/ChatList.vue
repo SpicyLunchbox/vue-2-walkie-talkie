@@ -7,6 +7,8 @@
         <router-link :to="{ name: 'chat', params: { id: chat.id } }">{{ chat.id }}</router-link>
       </li>
     </ul>
+    <span>Common Chat Room</span><br>
+    <span><router-link :to="{ name: 'chat', params: { id: CommonRoom }}">CommonRoom</router-link></span>
   </div>
 </template>
 
