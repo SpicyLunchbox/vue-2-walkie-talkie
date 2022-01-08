@@ -4,6 +4,8 @@
      <h1>Voxer App</h1>
      <p>Realtime Voice Chat</p>
    </header>
+
+    <router-view></router-view>
   </div>
 </template>
 
